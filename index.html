@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Neko</title>
+</head>
+<body>
+    <div class="divImage">
+        <h1>My World</h1>
+        <img id="displayImage" src="https://img.freepik.com/vetores-premium/icone-do-planeta-terra-pixel-art_1102-3931.jpg" alt="pixelWorld">
+    </div>
+
+    <div class="divButton">
+        <select id="resolutionDropdown" class="button" onchange="changeImage()">
+            <option value="144p">144p</option>
+            <option value="240p">240p</option>
+            <option value="480p">480p</option>
+            <option value="720p">720p</option>
+            <option value="1080p">1080p</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

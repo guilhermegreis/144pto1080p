@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.divImage {
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+    margin-top: 150px;
+}
+
+h1 {
+    position: absolute;
+}
+
+img {
+    background-color: black;
+}
+
+.divButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 5px;
+
+    height: 100%;
+    width: 80px;
+
+    outline: auto;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
